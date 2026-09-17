@@ -1,21 +1,22 @@
-body{
+/* body{
     background: linear-gradient(to bottom, #1d31b5, #0a0808);
     min-height: 100vh;
     padding: 0;
     margin: 0;
     
-}
+} */
 
 
 .container{
+    background: linear-gradient(to bottom, #1d31b5, #0a0808);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-}
 
-h1{
+    
+    h1{
     color: white;
     text-align: center;
     
@@ -39,3 +40,5 @@ button{
     width: 250px;
     margin-top: 20px;
 }
+}
+
