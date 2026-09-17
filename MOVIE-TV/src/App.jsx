@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 
@@ -10,9 +10,9 @@ function App() {
           MovieTv</h1>
         <p>Entre na sua conta para ter acesso a sua lista filmes</p>
 
-        <button><strong>Entrar</strong></button>
-
-
+        <Link to="/login">
+          <button><strong>Entrar</strong></button>
+        </Link>
 
       </div>
     </>
