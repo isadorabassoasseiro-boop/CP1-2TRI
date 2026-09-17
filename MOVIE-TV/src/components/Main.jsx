@@ -1,5 +1,5 @@
 import { WiDirectionRight } from "react-icons/wi";
-
+import { Link } from "react-router-dom";
 
 const Main = () => {
     return (
@@ -8,10 +8,12 @@ const Main = () => {
             <input type="text" id="usuario" placeholder="Usuário"/>
             <input type="password" id="senha" placeholder="Senha"/>
 
-            <button><WiDirectionRight className="WiDirectionRight" /></button>
+            <Link to="/lista">
+                <button><WiDirectionRight className="WiDirectionRight" /></button>
+            </Link>
+
         </div>
     )
-
 }
 
 export default Main
