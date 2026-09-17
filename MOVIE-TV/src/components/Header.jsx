@@ -5,7 +5,7 @@ const Header = () => {
     <header className = "header">
 
         <div>
-            <h1><GiTv/>MovieTv</h1>
+            <h1><GiTv className="GiTv" />MovieTv</h1>
 
             <h2>Sign In</h2>
            

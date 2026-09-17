@@ -8,7 +8,7 @@ const Main = () => {
             <input type="text" id="usuario" placeholder="Usuário"/>
             <input type="password" id="senha" placeholder="Senha"/>
 
-            <button><WiDirectionRight /></button>
+            <button><WiDirectionRight className="WiDirectionRight" /></button>
         </div>
     )
 
