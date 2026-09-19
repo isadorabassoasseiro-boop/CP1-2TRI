@@ -2,7 +2,9 @@ const ListaPage = () => {
     return (
         <>
         <div>
-            <h1>Lista de Filmes</h1>
+            <h1>Sua lista
+                
+            </h1>
         </div>
         </>
     ) 
