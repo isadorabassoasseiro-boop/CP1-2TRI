@@ -25,7 +25,7 @@ const Main = () => {
             />
 
             {usuario !== "" && senha !== "" ? (
-                <Link to="/lista">
+                <Link to="/catalogo">
                     <button>
                         <WiDirectionRight className="WiDirectionRight" />
                     </button>
