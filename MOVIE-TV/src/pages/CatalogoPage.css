@@ -1,0 +1,136 @@
+.catalogo {
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 20px 60px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalogo h1 {
+    color: #000228;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.acoes-topo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.icone-busca {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #000228;
+    cursor: pointer;
+}
+
+.icone-lista {
+    font-size: 22px;
+    color: #000228;
+}
+
+.topo input {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 0 12px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.catalogo p {
+    color: #1E1E1E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+    gap: 16px;
+    
+}
+
+.grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card-filme {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.card-filme img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    opacity: 0.8;
+}
+
+.card-filme h3 {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    text-align: center;
+}
+
+.card-filme button {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(10, 14, 42, );
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -16px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+
+@media (max-width: 900px) {
+    .grid-filmes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .catalogo {
+        padding: 16px;
+    }
+
+    .grid-filmes {
+        grid-template-columns: 1fr;
+    }
+}
